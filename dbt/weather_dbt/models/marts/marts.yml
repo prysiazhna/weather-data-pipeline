@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: fact_weather_daily
+    columns:
+      - name: location_id
+        tests: [not_null]
+      - name: date
+        tests: [not_null]
+
+  - name: dim_location
+    columns:
+      - name: location_id
+        tests: [unique, not_null]
+
+  - name: dim_date
+    columns:
+      - name: date
+        tests: [unique, not_null]

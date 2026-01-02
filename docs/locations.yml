@@ -1,0 +1,213 @@
+dataset:
+  name: weather_data_pipelines
+  timezone_default: UTC
+  grain: daily
+
+locations:
+  - location_id: buc_ro
+    name: Bucharest
+    country: RO
+    region: București
+    lat: 44.4268
+    lon: 26.1025
+    tz: Europe/Bucharest
+
+  - location_id: kyiv_ua
+    name: Kyiv
+    country: UA
+    region: Kyiv City
+    lat: 50.4501
+    lon: 30.5234
+    tz: Europe/Kyiv
+  
+  - location_id: london_uk
+    name: London
+    country: UK
+    region: England
+    lat: 51.5074
+    lon: -0.1278
+    tz: Europe/London
+
+  - location_id: newyork_us
+    name: New York
+    country: US
+    region: New York
+    lat: 40.7128
+    lon: -74.0060
+    tz: America/New_York
+
+  - location_id: singapore_sg
+    name: Singapore
+    country: SG
+    region: Singapore
+    lat: 1.3521
+    lon: 103.8198
+    tz: Asia/Singapore
+
+  - location_id: tokyo_jp
+    name: Tokyo
+    country: JP
+    region: Tokyo
+    lat: 35.6895
+    lon: 139.6917
+    tz: Asia/Tokyo
+
+  - location_id: seoul_kr
+    name: Seoul
+    country: KR
+    region: Seoul
+    lat: 37.5665
+    lon: 126.9780
+    tz: Asia/Seoul
+
+  - location_id: sydney_au
+    name: Sydney
+    country: AU
+    region: New South Wales
+    lat: -33.8688
+    lon: 151.2093
+    tz: Australia/Sydney
+
+  - location_id: paris_fr
+    name: Paris
+    country: FR
+    region: Île-de-France
+    lat: 48.8566
+    lon: 2.3522
+    tz: Europe/Paris
+  
+  - location_id: berlin_de
+    name: Berlin
+    country: DE
+    region: Berlin
+    lat: 52.5200
+    lon: 13.4050
+    tz: Europe/Berlin
+
+  - location_id: madrid_es
+    name: Madrid
+    country: ES
+    region: Community of Madrid
+    lat: 40.4168
+    lon: -3.7038
+    tz: Europe/Madrid
+
+  - location_id: rome_it
+    name: Rome
+    country: IT
+    region: Lazio
+    lat: 41.9028
+    lon: 12.4964
+    tz: Europe/Rome
+
+  - location_id: amsterdam_nl
+    name: Amsterdam
+    country: NL
+    region: North Holland
+    lat: 52.3676
+    lon: 4.9041
+    tz: Europe/Amsterdam
+
+  - location_id: stockholm_se
+    name: Stockholm
+    country: SE
+    region: Stockholm County
+    lat: 59.3293
+    lon: 18.0686
+    tz: Europe/Stockholm
+
+  - location_id: oslo_no
+    name: Oslo
+    country: NO
+    region: Oslo
+    lat: 59.9139
+    lon: 10.7522
+    tz: Europe/Oslo
+
+  - location_id: helsinki_fi
+    name: Helsinki
+    country: FI
+    region: Uusimaa
+    lat: 60.1699
+    lon: 24.9384
+    tz: Europe/Helsinki
+
+  - location_id: vienna_at
+    name: Vienna
+    country: AT
+    region: Vienna
+    lat: 48.2082
+    lon: 16.3738
+    tz: Europe/Vienna
+
+  - location_id: lisbon_pt
+    name: Lisbon
+    country: PT
+    region: Lisbon
+    lat: 38.7223
+    lon: -9.1393
+    tz: Europe/Lisbon
+
+  - location_id: dublin_ie
+    name: Dublin
+    country: IE
+    region: Leinster
+    lat: 53.3498
+    lon: -6.2603
+    tz: Europe/Dublin
+
+  - location_id: zurich_ch
+    name: Zurich
+    country: CH
+    region: Zurich
+    lat: 47.3769
+    lon: 8.5417
+    tz: Europe/Zurich
+
+  - location_id: toronto_ca
+    name: Toronto
+    country: CA
+    region: Ontario
+    lat: 43.6532
+    lon: -79.3832
+    tz: America/Toronto
+
+  - location_id: buenos_aires_ar
+    name: Buenos Aires
+    country: AR
+    region: Buenos Aires
+    lat: -34.6037
+    lon: -58.3816
+    tz: America/Argentina/Buenos_Aires
+
+  - location_id: cairo_eg
+    name: Cairo
+    country: EG
+    region: Cairo Governorate
+    lat: 30.0444
+    lon: 31.2357
+    tz: Africa/Cairo
+
+  - location_id: dubai_ae
+    name: Dubai
+    country: AE
+    region: Dubai
+    lat: 25.2048
+    lon: 55.2708
+    tz: Asia/Dubai
+
+  - location_id: mumbai_in
+    name: Mumbai
+    country: IN
+    region: Maharashtra
+    lat: 19.0760
+    lon: 72.8777
+    tz: Asia/Kolkata
+
+  - location_id: delhi_in
+    name: Delhi
+    country: IN
+    region: Delhi
+    lat: 28.6139
+    lon: 77.2090
+    tz: Asia/Kolkata

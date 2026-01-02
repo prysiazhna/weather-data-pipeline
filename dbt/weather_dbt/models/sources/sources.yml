@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: weather_staging
+    schema: staging
+    loaded_at_field: loaded_at
+
+    freshness:
+      warn_after: {count: 30, period: hour}
+      error_after: {count: 48, period: hour}
+
+    tables:
+      - name: stg_weather_daily
+      - name: stg_locations

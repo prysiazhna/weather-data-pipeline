@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Env
+.env
+
+# Airflow / dbt
+logs/
+dbt_target/
+dbt_packages/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Data artifacts (never commit raw data)
+*.parquet
+*.json

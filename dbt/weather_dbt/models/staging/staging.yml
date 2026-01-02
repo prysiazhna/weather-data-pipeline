@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_weather_daily
+    columns:
+      - name: location_id
+        tests: [not_null]
+      - name: date
+        tests: [not_null]
+      - name: dt
+        tests: [not_null]
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['location_id', 'date']
