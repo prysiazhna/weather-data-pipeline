@@ -21,3 +21,6 @@ dbt_packages/
 # Data artifacts (never commit raw data)
 *.parquet
 *.json
+
+target/
+dbt_target/
